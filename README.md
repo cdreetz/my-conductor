@@ -14,6 +14,10 @@ pip install flash-attn --no-build-isolation
 ### Final Results:
 
 The resulting numbers below were run on a single H100 with basically no optimization.
+```
+NOTE:
+The result is incorrect, but was seen to be corrected through better prompting but resulted in slower processing.
+```
 
 Total numbers found: 89
 Maximum value found: 96,496,000,000 (on page 82)
